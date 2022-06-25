@@ -1,9 +1,11 @@
+import './RegistrationForm.scss'
+
 export default function RegistrationForm() {
   return (
     <>
       <div>
         <footer>
-          <h2>Working with POST request</h2>
+          <h2 className='registration-title'>Working with POST request</h2>
           <form>
             <input></input>
             <input></input>

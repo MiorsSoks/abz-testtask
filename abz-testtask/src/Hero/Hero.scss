@@ -1,6 +1,7 @@
-.section {
+.hero-section {
   background-image: url("../images/png/bakgroung_desktop.png");
   background-position: 50% 50%;
+  margin-bottom: 140px;
 }
 
 .hero-container {
@@ -11,7 +12,7 @@
   padding-bottom: 71px;
 }
 
-.text {
+.hero-text {
   padding-bottom: 32px;
   color: #fff;
   font-size: 16px;
@@ -19,7 +20,7 @@
   text-align: center;
   padding-bottom: 32px;
 }
-.title {
+.hero-title {
   color: #fff;
   font-size: 40px;
   font-weight: 400;

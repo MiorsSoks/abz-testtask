@@ -2,10 +2,10 @@ import "./Hero.scss";
 export default function Hero() {
   return (
     <>
-      <section className="section">
+      <section className="hero-section">
         <div className="container hero-container">
-          <h1 className='title'>Test assignment for front-end developer</h1>
-          <p className="text">
+          <h1 className='hero-title'>Test assignment for front-end developer</h1>
+          <p className="hero-text">
             What defines a good front-end developer is one that has skilled
             knowledge of HTML, CSS, JS with a vast understanding of User design
             thinking as they'll be building web interfaces with accessibility in
