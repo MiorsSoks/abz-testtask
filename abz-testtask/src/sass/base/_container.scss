@@ -1,0 +1,13 @@
+.main-container {
+  background-color: var(--background-color);
+}
+@media (max-width: 768px) {
+  .page {
+    width: 360px;
+    margin: 0 auto;
+  }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

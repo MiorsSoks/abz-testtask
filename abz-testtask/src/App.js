@@ -1,16 +1,17 @@
-import './App.scss';
-import AppBar from './AppBar';
-import Hero from './Hero'
-import UsersList from './UsersList'
-import RegistrationForm from './RegistrationForm'
+import AppBar from "./AppBar";
+import Hero from "./Hero";
+import UsersList from "./UsersList";
+import RegistrationForm from "./RegistrationForm";
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <AppBar></AppBar>
-      <Hero></Hero>
-      <UsersList></UsersList>
-      <RegistrationForm></RegistrationForm>
+      <div className="main-container">
+        <Hero></Hero>
+        <UsersList></UsersList>
+        <RegistrationForm></RegistrationForm>
+      </div>
     </div>
   );
 }
